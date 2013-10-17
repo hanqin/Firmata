@@ -1,0 +1,8 @@
+
+group = 'name.antonsmirnov.firmata.serial'
+description = 'ProcessingSerial'
+
+dependencies {
+  compile project(':Serial')
+    compile group: 'org.processing', name: 'serial', version:'1.5.1'
+}

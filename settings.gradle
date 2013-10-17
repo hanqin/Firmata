@@ -1,0 +1,8 @@
+rootProject.name = 'parent'
+include ':Serial', ':Firmata', ':FirmataTests', ':ProcessingSerial', ':IndepProcessingSerial'
+
+project(':Serial').projectDir = "$rootDir/Serial" as File
+project(':Firmata').projectDir = "$rootDir/Firmata" as File
+project(':FirmataTests').projectDir = "$rootDir/FirmataTests" as File
+project(':ProcessingSerial').projectDir = "$rootDir/ProcessingSerial" as File
+project(':IndepProcessingSerial').projectDir = "$rootDir/IndepProcessingSerial" as File

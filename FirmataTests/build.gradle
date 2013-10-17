@@ -1,0 +1,10 @@
+
+
+description = 'FirmataTests'
+
+dependencies {
+  compile project(':Firmata')
+    testCompile group: 'org.slf4j', name: 'slf4j-simple', version:'1.6.4'
+  testCompile project(':IndepProcessingSerial')
+    testCompile group: 'junit', name: 'junit', version:'4.8.1'
+}
